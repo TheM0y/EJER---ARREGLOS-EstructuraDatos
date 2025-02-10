@@ -19,7 +19,7 @@ __-cargar_datos:__ Verifica si existe el archivo JSON en la carpeta donde tambi�
 __-guardar_datos:__ Guarda los cambios que el usuario realice de las ventas dentro del archivo JSON, sobreescribiendo la información.\
 __-insertar_datos:__ Agrega los datos de una venta en el departamento y mes seleccionados. Se puede registrar más de una venta por mes.\
 __-eliminar_venta:__ Elimina una venta determinada (si existe), buscando por su departamento, mes y el nombre del articulo.\
-__-buscar_venta:__ Permite buscar una venta determinada, buscando por su departamento, mes y nombre del artículo. Si dicha venta existe se mostrará.
+__-buscar_venta:__ Permite buscar una venta determinada, buscando por su departamento, mes y nombre del artículo. Si dicha venta existe se mostrará.\
 __-mostrar_ventas:__ Muestra todas las ventas registradas en el archivo JSON. Si no hay alguna venta registrada en algún mes de un departamento se mostrará el mesansaje "Sin ventas".\
 __-menu:__ Despliega un menú, con dicho menú el usuario puede interactuar con el programa.
 
