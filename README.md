@@ -14,14 +14,14 @@ __json:__ Esta librería permite agregar el código necesario para crear el arch
 __os:__ Esta librería permite agregar el código necesario para que el programa pueda acceder a la computadora del usuario, así como a sus archivos. Permitiendo crear el archivo JSON.
 
 **Métodos:**\
-__init:__ Es el método constructor. Inicializa el arreglo de los departamentos, el arreglo de los  meses y carga los datos del archivo JSON al programa.\
-__cargar_datos:__ Verifica si existe el archivo JSON en la carpeta donde también se encuentra el archivo py del programa, de no ser así, crea el archivo.\
-__guardar_datos:__ Guarda los cambios que el usuario realice de las ventas dentro del archivo JSON, sobreescribiendo la información.\
-__insertar_datos:__ Agrega los datos de una venta en el departamento y mes seleccionados. Se puede registrar más de una venta por mes.\
-__eliminar_venta:__ Elimina una venta determinada (si existe), buscando por su departamento, mes y el nombre del articulo.\
-__buscar_venta:__ Permite buscar una venta determinada, buscando por su departamento, mes y nombre del artículo. Si dicha venta existe se mostrará.
-__mostrar_ventas:__ Muestra todas las ventas registradas en el archivo JSON. Si no hay alguna venta registrada en algún mes de un departamento se mostrará el mesansaje "Sin ventas".\
-__menu:__ Despliega un menú, con dicho menú el usuario puede interactuar con el programa.
+__-init:__ Es el método constructor. Inicializa el arreglo de los departamentos, el arreglo de los  meses y carga los datos del archivo JSON al programa.\
+__-cargar_datos:__ Verifica si existe el archivo JSON en la carpeta donde también se encuentra el archivo py del programa, de no ser así, crea el archivo.\
+__-guardar_datos:__ Guarda los cambios que el usuario realice de las ventas dentro del archivo JSON, sobreescribiendo la información.\
+__-insertar_datos:__ Agrega los datos de una venta en el departamento y mes seleccionados. Se puede registrar más de una venta por mes.\
+__-eliminar_venta:__ Elimina una venta determinada (si existe), buscando por su departamento, mes y el nombre del articulo.\
+__-buscar_venta:__ Permite buscar una venta determinada, buscando por su departamento, mes y nombre del artículo. Si dicha venta existe se mostrará.
+__-mostrar_ventas:__ Muestra todas las ventas registradas en el archivo JSON. Si no hay alguna venta registrada en algún mes de un departamento se mostrará el mesansaje "Sin ventas".\
+__-menu:__ Despliega un menú, con dicho menú el usuario puede interactuar con el programa.
 
 **Objetos:**\
 __tienda:__ LLama a la clase "Tienda", y en la siguiente línea se accede al método del menú. Permitiendo ejecutar el programa.
