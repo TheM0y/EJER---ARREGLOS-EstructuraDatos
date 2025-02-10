@@ -3,7 +3,7 @@ En este README se explicará en que consiste el código del archivo "DepVentasMe
 Nota: 
 Este código de Python fue creado con ayuda de ChatGPT.<br>
 Se hicieron multiples iteraciones, modificaciones y correcciones para comprobar que funcione correctamente y de acuerdo a las intrucciones dadas.
--
+
 El código consiste en un programa para gestionar las ventas mensuales de tres departamentos distintos. Dichos departamentos son: Ropa, Deportes y Juguetería.
 El usuario podrá ingresar los datos necesarios para cada venta (nombre del producto y su precio), así como eliminarlos, consultar o mostrar todas las ventas registradas.
 La información de las ventas se almacenarán en arreglos, y a su vez en un archivo JSON. Conservando la información de las ventas aún despúes de haber cerrando el programa.
